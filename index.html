@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>LEVEL UP</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1 class="title">🔥 LEVEL UP PANEL 🔥</h1>
+
+<div class="box" id="loginBox">
+<h2>تسجيل الدخول</h2>
+<input id="user" placeholder="Username">
+<input id="pass" type="password" placeholder="Password">
+<button class="btn" onclick="login()">دخول</button>
+</div>
+
+<div class="box hidden" id="adminBox">
+<h2 class="admin">👑 ADMIN</h2>
+<p>مرحبا أيها الأدمن</p>
+<button class="btn danger" onclick="logout()">خروج</button>
+</div>
+
+<div class="box hidden" id="userBox">
+<h2 class="user">⬆️ LEVEL UP</h2>
+
+<input id="uid" placeholder="UID">
+<input id="pwd" placeholder="Guest Password">
+<input id="link" placeholder="Allikk">
+
+<button class="btn success" onclick="saveLevel()">حفظ</button>
+
+<div id="levelList"></div>
+
+<button class="btn danger" onclick="logout()">خروج</button>
+</div>
+
+<footer>
+<p>Instagram / TikTok : <span>d09_l7</span></p>
+<p>YouTube :
+<a href="https://youtube.com/@xvx_stories?feature=shared" target="_blank">
+xvx_stories
+</a>
+</p>
+</footer>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+  </html>
