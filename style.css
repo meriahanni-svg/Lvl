@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, Arial;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: #00ffe1;
+  text-shadow: 0 0 10px #00ffe1;
+}
+
+.box {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(0,255,225,0.3);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.success {
+  background: #00ff88;
+}
+
+.danger {
+  background: #ff3b3b;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.hidden {
+  display: none;
+}
+
+.online {
+  color: #00ff88;
+  font-weight: bold;
+}
+
+.offline {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+#levelList div {
+  background: rgba(255,255,255,0.05);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+footer span {
+  color: #00ffe1;
+}
+
+footer a {
+  color: #00ff88;
+  text-decoration: none;
+  }
